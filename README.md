@@ -1,4 +1,4 @@
-#Projeto Crypto Moeda
+## Projeto Crypto Moeda
 Projeto simples que consome dados da API CoinGecko para exibir uma tabela das principais criptomoedas ordenadas pelo preço.
 
 ## 🛠 Tecnologias usadas 
