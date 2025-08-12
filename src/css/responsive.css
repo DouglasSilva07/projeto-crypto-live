@@ -1,0 +1,42 @@
+@media (max-width: 600px) {
+    .crypto-table thead {
+        display: none; /* esconde cabeçalho */
+    }
+
+    .crypto-table, 
+    .crypto-table tbody, 
+    .crypto-table tr, 
+    .crypto-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .crypto-table tr {
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 10px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .crypto-table td {
+        text-align: left;
+        padding-left: 40%;
+        position: relative;
+        border: none;
+        border-bottom: 1px solid #eee;
+    }
+
+    .crypto-table td:last-child {
+        border-bottom: none;
+    }
+
+    .crypto-table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        font-weight: bold;
+        color: #555;
+    }
+}
